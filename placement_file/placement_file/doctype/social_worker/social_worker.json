@@ -36,8 +36,9 @@
    "label": "Team"
   },
   {
+   "default": "+44-",
    "fieldname": "telephone_number",
-   "fieldtype": "Data",
+   "fieldtype": "Phone",
    "label": "Telephone Number"
   },
   {
@@ -48,7 +49,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-11-25 21:47:01.226394",
+ "modified": "2022-11-25 23:17:28.546400",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Social Worker",
