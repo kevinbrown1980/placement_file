@@ -1,0 +1,157 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-25 21:42:43.422392",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "key_information_section",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "also_known_as",
+  "column_break_6",
+  "date_of_birth",
+  "legal_status",
+  "date_of_admission_into_care",
+  "social_worker",
+  "current_placement_section",
+  "primary_carer",
+  "primary_carer_telephone_number",
+  "current_address",
+  "column_break_19",
+  "secondary_carer",
+  "secondary_carer_telephone_number",
+  "placement_moves_section",
+  "previous_placements"
+ ],
+ "fields": [
+  {
+   "fieldname": "key_information_section",
+   "fieldtype": "Section Break",
+   "label": "Key Information"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "also_known_as",
+   "fieldtype": "Data",
+   "label": "Also Known As"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "legal_status",
+   "fieldtype": "Link",
+   "label": "Legal Status",
+   "options": "Legal Status"
+  },
+  {
+   "fieldname": "date_of_admission_into_care",
+   "fieldtype": "Date",
+   "label": "Date of Admission into Care"
+  },
+  {
+   "fieldname": "social_worker",
+   "fieldtype": "Link",
+   "label": "Social Worker",
+   "options": "Social Worker"
+  },
+  {
+   "fieldname": "current_address",
+   "fieldtype": "Link",
+   "label": "Current Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "placement_moves_section",
+   "fieldtype": "Section Break",
+   "label": "Placement Moves"
+  },
+  {
+   "fieldname": "previous_placements",
+   "fieldtype": "Table",
+   "label": "Previous Placements",
+   "options": "Previous Placements"
+  },
+  {
+   "fieldname": "current_placement_section",
+   "fieldtype": "Section Break",
+   "label": "Current Placement"
+  },
+  {
+   "fieldname": "primary_carer",
+   "fieldtype": "Link",
+   "label": "Primary Carer",
+   "options": "Foster Carer"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "secondary_carer",
+   "fieldtype": "Link",
+   "label": "Secondary Carer",
+   "options": "Foster Carer"
+  },
+  {
+   "default": "+44-",
+   "fieldname": "primary_carer_telephone_number",
+   "fieldtype": "Phone",
+   "label": "Telephone Number"
+  },
+  {
+   "default": "+44-",
+   "fieldname": "secondary_carer_telephone_number",
+   "fieldtype": "Phone",
+   "label": "Telephone Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-11-25 22:26:16.908345",
+ "modified_by": "Administrator",
+ "module": "Placement File",
+ "name": "Looked After Child",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
