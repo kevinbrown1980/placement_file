@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include placement_file *.css
+recursive-include placement_file *.csv
+recursive-include placement_file *.html
+recursive-include placement_file *.ico
+recursive-include placement_file *.js
+recursive-include placement_file *.json
+recursive-include placement_file *.md
+recursive-include placement_file *.png
+recursive-include placement_file *.py
+recursive-include placement_file *.svg
+recursive-include placement_file *.txt
+recursive-exclude placement_file *.pyc
