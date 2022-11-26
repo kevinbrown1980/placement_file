@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{first_name} {last_name}",
  "creation": "2022-11-25 21:47:01.226394",
  "default_view": "List",
  "doctype": "DocType",
@@ -49,10 +50,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-11-26 15:20:44.756077",
+ "modified": "2022-11-26 15:49:19.264934",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Social Worker",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

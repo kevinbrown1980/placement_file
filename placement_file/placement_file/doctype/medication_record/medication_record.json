@@ -1,12 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{given_to} {date}",
  "creation": "2022-11-25 22:28:27.144132",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "given_to",
   "date",
   "medication",
   "dose",
@@ -54,14 +56,21 @@
    "label": "Given By",
    "options": "Foster Carer",
    "reqd": 1
+  },
+  {
+   "fieldname": "given_to",
+   "fieldtype": "Link",
+   "label": "Given To",
+   "options": "Looked After Child"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-11-25 22:36:12.781977",
+ "modified": "2022-11-26 15:52:48.437645",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Medication Record",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

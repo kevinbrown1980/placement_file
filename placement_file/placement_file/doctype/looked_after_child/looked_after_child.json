@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{first_name} {last_name}",
  "creation": "2022-11-25 21:42:43.422392",
  "default_view": "List",
  "doctype": "DocType",
@@ -132,10 +133,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-11-26 15:20:16.413475",
+ "modified": "2022-11-26 15:49:31.469550",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Looked After Child",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

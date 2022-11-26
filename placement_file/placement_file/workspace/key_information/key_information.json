@@ -1,0 +1,63 @@
+{
+ "charts": [
+  {
+   "chart_name": "Medication In last Month",
+   "label": "Medication Given"
+  }
+ ],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Shortcuts</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New Foster Carer\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New Social Worker\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New LAC\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Diary Entry\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Medication Given\",\"col\":12}}]",
+ "creation": "2022-11-26 15:31:06.444241",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "folder-open",
+ "idx": 0,
+ "label": "Key Information",
+ "links": [],
+ "modified": "2022-11-26 15:44:11.042069",
+ "modified_by": "Administrator",
+ "module": "Placement File",
+ "name": "Key Information",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Foster Carer"
+  }
+ ],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Add New Foster Carer",
+   "link_to": "Foster Carer",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "New Diary Entry",
+   "link_to": "Diary Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Add New Social Worker",
+   "link_to": "Social Worker",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Add New LAC",
+   "link_to": "Looked After Child",
+   "type": "DocType"
+  }
+ ],
+ "title": "Key Information"
+}
