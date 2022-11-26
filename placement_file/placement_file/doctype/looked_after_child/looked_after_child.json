@@ -132,7 +132,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-11-25 22:26:16.908345",
+ "modified": "2022-11-26 15:20:16.413475",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Looked After Child",
@@ -147,6 +147,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Foster Carer",
    "share": 1,
    "write": 1
   }
