@@ -6,6 +6,7 @@ app_publisher = "Kevin Brown"
 app_description = "Digital Placement File"
 app_email = "kevin.brown@infinics.co.uk"
 app_license = "MIT"
+app_logo_url = "/assets/placement_file/images/our-family.png"
 
 # Includes in <head>
 # ------------------
@@ -44,6 +45,11 @@ app_license = "MIT"
 # role_home_page = {
 #	"Role": "home_page"
 # }
+
+website_context = {
+	"favicon": 	"/assets/placement_file/images/our-family.png",
+	"splash_image": "/assets/placement_file/images/our-family.png"
+}
 
 # Generators
 # ----------
