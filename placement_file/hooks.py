@@ -191,3 +191,6 @@ website_context = {
 # auth_hooks = [
 #	"placement_file.auth.validate"
 # ]
+fixtures = [{
+  'dt': 'Role', 'filters': {'name': ('in', ('Foster Carer','Role2','Role3'))}
+}]
