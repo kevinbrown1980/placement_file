@@ -192,5 +192,5 @@ website_context = {
 #	"placement_file.auth.validate"
 # ]
 fixtures = [{
-  'dt': 'Role', 'filters': {'name': ('in', ('Foster Carer','Role2','Role3'))}
+  'dt': 'Role', 'filters': {'name': ('in', ('Foster Carer','Social Worker','Looked After Child'))}
 }]
