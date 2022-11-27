@@ -5,6 +5,7 @@
  "creation": "2022-11-25 22:02:03.437827",
  "default_view": "List",
  "doctype": "DocType",
+ "document_type": "Document",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
@@ -13,10 +14,11 @@
   "first_name",
   "middle_name",
   "last_name",
-  "foster_carer_name",
+  "full_name",
   "column_break_7",
   "gender",
   "date_of_birth",
+  "age",
   "salutation",
   "column_break_11",
   "date_of_approval",
@@ -83,15 +85,6 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "foster_carer_name",
-   "fieldtype": "Data",
-   "in_global_search": 1,
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Full Name",
-   "read_only": 1
-  },
-  {
    "fieldname": "column_break_7",
    "fieldtype": "Column Break"
   },
@@ -100,11 +93,6 @@
    "fieldtype": "Link",
    "label": "Gender",
    "options": "Gender"
-  },
-  {
-   "fieldname": "date_of_birth",
-   "fieldtype": "Date",
-   "label": "Date of Birth"
   },
   {
    "fieldname": "salutation",
@@ -126,7 +114,6 @@
    "fetch_if_empty": 1,
    "fieldname": "image",
    "fieldtype": "Attach Image",
-   "hidden": 1,
    "label": "Image",
    "no_copy": 1
   },
@@ -313,11 +300,34 @@
    "fieldname": "place_of_issue",
    "fieldtype": "Data",
    "label": "Place of Issue"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "is_virtual": 1,
+   "label": "Full Name",
+   "options": "f\"{doc.first_name} {doc.last_name}\"",
+   "read_only": 1
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age",
+   "read_only": 1
   }
  ],
+ "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-11-27 14:45:45.099933",
+ "modified": "2022-11-27 19:22:49.322312",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Foster Carer",
@@ -338,7 +348,6 @@
   },
   {
    "create": 1,
-   "delete": 1,
    "email": 1,
    "export": 1,
    "print": 1,
@@ -347,8 +356,21 @@
    "role": "Foster Carer",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Social Worker",
+   "share": 1,
+   "write": 1
   }
  ],
+ "show_name_in_global_search": 1,
+ "show_preview_popup": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

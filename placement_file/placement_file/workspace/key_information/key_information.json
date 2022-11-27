@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Shortcuts</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New Foster Carer\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New Social Worker\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New LAC\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Diary Entry\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Shortcuts</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New Foster Carer\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New Social Worker\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New LAC\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Foster Carers\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Social Workers\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Placements\",\"col\":3}},{\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Current Placements\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Diary Entry\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Diary\",\"col\":3}}]",
  "creation": "2022-11-26 15:31:06.444241",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -10,14 +10,19 @@
  "idx": 0,
  "label": "Key Information",
  "links": [],
- "modified": "2022-11-27 14:13:03.225867",
+ "modified": "2022-11-27 19:31:54.048089",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Key Information",
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
- "quick_lists": [],
+ "quick_lists": [
+  {
+   "document_type": "Looked After Child",
+   "label": "Current Placements"
+  }
+ ],
  "roles": [
   {
    "role": "Foster Carer"
@@ -42,15 +47,43 @@
   {
    "color": "Grey",
    "doc_view": "New",
+   "label": "Add New LAC",
+   "link_to": "Looked After Child",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
    "label": "Add New Social Worker",
    "link_to": "Social Worker",
    "type": "DocType"
   },
   {
    "color": "Grey",
-   "doc_view": "New",
-   "label": "Add New LAC",
+   "doc_view": "List",
+   "label": "View Foster Carers",
+   "link_to": "Foster Carer",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Social Workers",
+   "link_to": "Social Worker",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Placements",
    "link_to": "Looked After Child",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Diary",
+   "link_to": "Diary Entry",
    "type": "DocType"
   }
  ],
