@@ -1,11 +1,6 @@
 {
- "charts": [
-  {
-   "chart_name": "Medication In last Month",
-   "label": "Medication Given"
-  }
- ],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Shortcuts</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New Foster Carer\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New Social Worker\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New LAC\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Diary Entry\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Medication Given\",\"col\":12}}]",
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Shortcuts</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New Foster Carer\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New Social Worker\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New LAC\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Diary Entry\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}}]",
  "creation": "2022-11-26 15:31:06.444241",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -15,7 +10,7 @@
  "idx": 0,
  "label": "Key Information",
  "links": [],
- "modified": "2022-11-26 15:44:11.042069",
+ "modified": "2022-11-27 14:13:03.225867",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Key Information",
