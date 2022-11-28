@@ -14,7 +14,6 @@
   "first_name",
   "middle_name",
   "last_name",
-  "full_name",
   "column_break_7",
   "gender",
   "date_of_birth",
@@ -27,19 +26,13 @@
   "user_details_section",
   "user_id",
   "contact_details",
+  "phone",
   "mobile",
   "column_break_19",
   "personal_email",
-  "company_email",
-  "column_break_22",
-  "prefered_contact_email",
-  "prefered_email",
   "address_section",
   "current_address",
-  "current_address_is",
-  "column_break_20",
-  "permanant_address",
-  "permanant_address_is",
+  "column_break_23",
   "emergency_contact_section",
   "emergency_contact_name",
   "column_break_33",
@@ -57,7 +50,9 @@
   "valid_upto",
   "column_break_46",
   "date_of_issue",
-  "place_of_issue"
+  "place_of_issue",
+  "section_break_43",
+  "partner"
  ],
  "fields": [
   {
@@ -114,6 +109,8 @@
    "fetch_if_empty": 1,
    "fieldname": "image",
    "fieldtype": "Attach Image",
+   "hidden": 1,
+   "in_preview": 1,
    "label": "Image",
    "no_copy": 1
   },
@@ -146,27 +143,6 @@
    "label": "Current Address"
   },
   {
-   "fieldname": "current_address_is",
-   "fieldtype": "Select",
-   "label": "Current Address Is",
-   "options": "\nRented\nOwned"
-  },
-  {
-   "fieldname": "column_break_20",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "permanant_address",
-   "fieldtype": "Small Text",
-   "label": "Permanant Address"
-  },
-  {
-   "fieldname": "permanant_address_is",
-   "fieldtype": "Select",
-   "label": "Permanant Address Is",
-   "options": "\nRented\nOwned"
-  },
-  {
    "fieldname": "contact_details",
    "fieldtype": "Tab Break",
    "label": "Address & Contacts"
@@ -184,31 +160,8 @@
   {
    "fieldname": "personal_email",
    "fieldtype": "Data",
-   "label": "Personal Email",
+   "label": "Email",
    "options": "Email"
-  },
-  {
-   "fieldname": "company_email",
-   "fieldtype": "Data",
-   "label": "Company Email",
-   "options": "Email"
-  },
-  {
-   "fieldname": "column_break_22",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "prefered_contact_email",
-   "fieldtype": "Select",
-   "label": "Prefered Contact Email",
-   "options": "\nCompany Email\nPersonal Email\nUser ID"
-  },
-  {
-   "fieldname": "prefered_email",
-   "fieldtype": "Data",
-   "label": "Prefered Email",
-   "options": "Email",
-   "read_only": 1
   },
   {
    "allow_in_quick_entry": 1,
@@ -302,17 +255,6 @@
    "label": "Place of Issue"
   },
   {
-   "fieldname": "full_name",
-   "fieldtype": "Data",
-   "in_global_search": 1,
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "is_virtual": 1,
-   "label": "Full Name",
-   "options": "f\"{doc.first_name} {doc.last_name}\"",
-   "read_only": 1
-  },
-  {
    "fieldname": "date_of_birth",
    "fieldtype": "Date",
    "label": "Date of Birth"
@@ -322,12 +264,32 @@
    "fieldtype": "Data",
    "label": "Age",
    "read_only": 1
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "section_break_43",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "partner",
+   "fieldtype": "Link",
+   "label": "Partner",
+   "options": "Foster Carer"
   }
  ],
  "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-11-27 19:22:49.322312",
+ "modified": "2022-11-27 20:23:15.450270",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Foster Carer",

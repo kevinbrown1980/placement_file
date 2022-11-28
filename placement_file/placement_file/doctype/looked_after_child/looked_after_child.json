@@ -21,10 +21,14 @@
   "current_placement_section",
   "primary_carer",
   "primary_carer_telephone_number",
+  "primarycarer_mobile_number",
+  "primarycarer_email",
   "current_address",
   "column_break_19",
   "secondary_carer",
   "secondary_carer_telephone_number",
+  "secondarycarer_mobile_number",
+  "secondarycarer_email",
   "placement_moves_section",
   "previous_placements"
  ],
@@ -81,10 +85,12 @@
    "options": "Social Worker"
   },
   {
+   "fetch_from": "primary_carer.current_address",
    "fieldname": "current_address",
-   "fieldtype": "Link",
+   "fieldtype": "Small Text",
    "label": "Current Address",
-   "options": "Address"
+   "options": "Address",
+   "read_only": 1
   },
   {
    "fieldname": "placement_moves_section",
@@ -119,21 +125,51 @@
    "options": "Foster Carer"
   },
   {
-   "default": "+44-",
+   "fetch_from": "primary_carer.phone",
    "fieldname": "primary_carer_telephone_number",
-   "fieldtype": "Phone",
-   "label": "Telephone Number"
+   "fieldtype": "Data",
+   "label": "Phone",
+   "read_only": 1
   },
   {
-   "default": "+44-",
+   "fetch_from": "secondary_carer.phone",
    "fieldname": "secondary_carer_telephone_number",
-   "fieldtype": "Phone",
-   "label": "Telephone Number"
+   "fieldtype": "Data",
+   "label": "Phone",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "primary_carer.mobile",
+   "fieldname": "primarycarer_mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "primary_carer.personal_email",
+   "fieldname": "primarycarer_email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "secondary_carer.mobile",
+   "fieldname": "secondarycarer_mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "secondary_carer.personal_email",
+   "fieldname": "secondarycarer_email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-11-26 15:49:31.469550",
+ "modified": "2022-11-27 20:18:06.230326",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Looked After Child",
