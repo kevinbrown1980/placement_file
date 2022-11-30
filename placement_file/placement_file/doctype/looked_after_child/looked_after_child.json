@@ -12,8 +12,8 @@
   "first_name",
   "middle_name",
   "last_name",
-  "also_known_as",
   "full_name",
+  "also_known_as",
   "column_break_6",
   "date_of_birth",
   "gender",
@@ -32,7 +32,8 @@
   "secondarycarer_mobile_number",
   "secondarycarer_email",
   "placement_moves_section",
-  "previous_placements"
+  "previous_placements",
+  "profile_picture"
  ],
  "fields": [
   {
@@ -181,11 +182,18 @@
    "fieldtype": "Link",
    "label": "Gender",
    "options": "Gender"
+  },
+  {
+   "fieldname": "profile_picture",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Profile Picture"
   }
  ],
+ "image_field": "profile_picture",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-11-30 14:26:18.753838",
+ "modified": "2022-11-30 19:51:28.091625",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Looked After Child",
