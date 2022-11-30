@@ -13,8 +13,10 @@
   "middle_name",
   "last_name",
   "also_known_as",
+  "full_name",
   "column_break_6",
   "date_of_birth",
+  "gender",
   "legal_status",
   "date_of_admission_into_care",
   "social_worker",
@@ -165,11 +167,25 @@
    "fieldtype": "Data",
    "label": "Email",
    "read_only": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Full Name",
+   "options": "f\"{doc.first_name} {doc.last_name}\"",
+   "read_only": 1
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "label": "Gender",
+   "options": "Gender"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-11-27 20:18:06.230326",
+ "modified": "2022-11-30 14:26:18.753838",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Looked After Child",

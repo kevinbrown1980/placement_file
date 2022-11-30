@@ -1,0 +1,104 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-30 14:15:18.544969",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "family_details_tab",
+  "foster_carers_section",
+  "primary_carer",
+  "column_break_4",
+  "secondary_carer",
+  "birth_children_section",
+  "table_6",
+  "section_break_7",
+  "table_8",
+  "current_placements_section",
+  "table_11"
+ ],
+ "fields": [
+  {
+   "fieldname": "family_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Family Details"
+  },
+  {
+   "fieldname": "foster_carers_section",
+   "fieldtype": "Section Break",
+   "label": "Foster Carers"
+  },
+  {
+   "fieldname": "primary_carer",
+   "fieldtype": "Link",
+   "label": "Primary Carer",
+   "options": "Foster Carer"
+  },
+  {
+   "fieldname": "secondary_carer",
+   "fieldtype": "Link",
+   "label": "Secondary Carer",
+   "options": "Foster Carer"
+  },
+  {
+   "fieldname": "birth_children_section",
+   "fieldtype": "Section Break",
+   "label": "Birth Children"
+  },
+  {
+   "fieldname": "table_6",
+   "fieldtype": "Table",
+   "options": "Birth Children"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break",
+   "label": "Pets"
+  },
+  {
+   "fieldname": "table_8",
+   "fieldtype": "Table",
+   "options": "Pets"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "current_placements_section",
+   "fieldtype": "Section Break",
+   "label": "Current Placements"
+  },
+  {
+   "fieldname": "table_11",
+   "fieldtype": "Table",
+   "options": "Current Placements"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-11-30 14:51:31.323499",
+ "modified_by": "Administrator",
+ "module": "Placement File",
+ "name": "Foster Family",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
