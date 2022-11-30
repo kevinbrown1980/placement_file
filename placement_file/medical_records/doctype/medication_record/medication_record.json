@@ -17,6 +17,12 @@
  ],
  "fields": [
   {
+   "fieldname": "given_to",
+   "fieldtype": "Link",
+   "label": "Given To",
+   "options": "Looked After Child"
+  },
+  {
    "allow_in_quick_entry": 1,
    "default": "Now",
    "fieldname": "date",
@@ -56,20 +62,14 @@
    "label": "Given By",
    "options": "Foster Carer",
    "reqd": 1
-  },
-  {
-   "fieldname": "given_to",
-   "fieldtype": "Link",
-   "label": "Given To",
-   "options": "Looked After Child"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2022-11-30 10:31:35.775757",
+ "modified": "2022-11-30 10:23:08.765101",
  "modified_by": "Administrator",
- "module": "Placement File",
+ "module": "Medical Records",
  "name": "Medication Record",
  "naming_rule": "Expression",
  "owner": "Administrator",

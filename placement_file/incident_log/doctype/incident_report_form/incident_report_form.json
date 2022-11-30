@@ -1,0 +1,242 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-30 11:21:19.130081",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tab_break_1",
+  "section_break_1",
+  "name1",
+  "date_of_birth",
+  "legal_status",
+  "section_break_5",
+  "date_and_time",
+  "location_of_incident",
+  "foster_carer",
+  "reporting_details_section",
+  "social_worker",
+  "section_break_11",
+  "accident",
+  "illness",
+  "injury",
+  "threat_of_self_harm",
+  "safety_intervention",
+  "verbal_aggression__abuse",
+  "physical_aggression__bullying",
+  "property_damage",
+  "social_media",
+  "column_break_21",
+  "theft",
+  "solvent__drug_misuse__possession",
+  "sexual_activity",
+  "school_refusal__problems",
+  "run_away__abscond",
+  "failure_to_return__missing",
+  "other",
+  "tab_break_30",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Link",
+   "label": "Name",
+   "options": "Looked After Child"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break",
+   "label": "Section A"
+  },
+  {
+   "fetch_from": "name1.date_of_birth",
+   "fieldname": "date_of_birth",
+   "fieldtype": "Data",
+   "label": "Date of Birth",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "name1.legal_status",
+   "fieldname": "legal_status",
+   "fieldtype": "Data",
+   "label": "Legal Status",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break",
+   "label": "Section B"
+  },
+  {
+   "fieldname": "date_and_time",
+   "fieldtype": "Datetime",
+   "label": "Date and Time"
+  },
+  {
+   "fieldname": "location_of_incident",
+   "fieldtype": "Data",
+   "label": "Location of Incident"
+  },
+  {
+   "fieldname": "foster_carer",
+   "fieldtype": "Link",
+   "label": "Foster Carer",
+   "options": "Foster Carer"
+  },
+  {
+   "description": "This incident was reported to:",
+   "fieldname": "reporting_details_section",
+   "fieldtype": "Section Break",
+   "label": "Reporting Details"
+  },
+  {
+   "fieldname": "social_worker",
+   "fieldtype": "Link",
+   "label": "Name",
+   "options": "Social Worker"
+  },
+  {
+   "default": "0",
+   "fieldname": "accident",
+   "fieldtype": "Check",
+   "label": "Accident"
+  },
+  {
+   "default": "0",
+   "fieldname": "illness",
+   "fieldtype": "Check",
+   "label": "Illness"
+  },
+  {
+   "default": "0",
+   "fieldname": "injury",
+   "fieldtype": "Check",
+   "label": "Injury"
+  },
+  {
+   "default": "0",
+   "fieldname": "threat_of_self_harm",
+   "fieldtype": "Check",
+   "label": "Threat of Self Harm"
+  },
+  {
+   "default": "0",
+   "fieldname": "safety_intervention",
+   "fieldtype": "Check",
+   "label": "Safety Intervention"
+  },
+  {
+   "default": "0",
+   "fieldname": "verbal_aggression__abuse",
+   "fieldtype": "Check",
+   "label": "Verbal Aggression / Abuse"
+  },
+  {
+   "default": "0",
+   "fieldname": "physical_aggression__bullying",
+   "fieldtype": "Check",
+   "label": "Physical Aggression / Bullying"
+  },
+  {
+   "default": "0",
+   "fieldname": "property_damage",
+   "fieldtype": "Check",
+   "label": "Property Damage"
+  },
+  {
+   "default": "0",
+   "fieldname": "social_media",
+   "fieldtype": "Check",
+   "label": "Social Media"
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "theft",
+   "fieldtype": "Check",
+   "label": "Theft"
+  },
+  {
+   "default": "0",
+   "fieldname": "solvent__drug_misuse__possession",
+   "fieldtype": "Check",
+   "label": "Solvent / Drug Misuse / Possession"
+  },
+  {
+   "default": "0",
+   "fieldname": "sexual_activity",
+   "fieldtype": "Check",
+   "label": "Sexual Activity"
+  },
+  {
+   "default": "0",
+   "fieldname": "school_refusal__problems",
+   "fieldtype": "Check",
+   "label": "School Refusal / Problems"
+  },
+  {
+   "default": "0",
+   "fieldname": "run_away__abscond",
+   "fieldtype": "Check",
+   "label": "Run Away / Abscond"
+  },
+  {
+   "default": "0",
+   "fieldname": "failure_to_return__missing",
+   "fieldtype": "Check",
+   "label": "Failure to Return / Missing"
+  },
+  {
+   "fieldname": "other",
+   "fieldtype": "Small Text",
+   "label": "Other"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tab_break_1",
+   "fieldtype": "Tab Break"
+  },
+  {
+   "fieldname": "tab_break_30",
+   "fieldtype": "Tab Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-11-30 11:44:34.177639",
+ "modified_by": "Administrator",
+ "module": "Incident Log",
+ "name": "Incident Report Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

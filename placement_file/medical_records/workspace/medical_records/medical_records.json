@@ -1,0 +1,33 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Medical Records</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Medication Record\",\"col\":3}}]",
+ "creation": "2022-11-30 10:24:16.270584",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "healthcare",
+ "idx": 0,
+ "label": "Medical Records",
+ "links": [],
+ "modified": "2022-11-30 10:33:33.217706",
+ "modified_by": "Administrator",
+ "module": "Medical Records",
+ "name": "Medical Records",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "New Medication Record",
+   "link_to": "Medication Record",
+   "type": "DocType"
+  }
+ ],
+ "title": "Medical Records"
+}

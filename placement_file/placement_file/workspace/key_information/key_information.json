@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Shortcuts</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New Foster Carer\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New Social Worker\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New LAC\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Foster Carers\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Social Workers\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Placements\",\"col\":3}},{\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Current Placements\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Diary Entry\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Diary\",\"col\":3}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Shortcuts</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New Foster Carer\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New Social Worker\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add New LAC\",\"col\":3}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Foster Carers\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Social Workers\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Placements\",\"col\":3}},{\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Current Placements\",\"col\":4}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Diary Entry\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Diary\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Event\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Calendar\",\"col\":3}}]",
  "creation": "2022-11-26 15:31:06.444241",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -10,7 +10,7 @@
  "idx": 0,
  "label": "Key Information",
  "links": [],
- "modified": "2022-11-27 19:31:54.048089",
+ "modified": "2022-11-30 11:04:57.496122",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Key Information",
@@ -33,6 +33,13 @@
   {
    "color": "Grey",
    "doc_view": "New",
+   "label": "New Event",
+   "link_to": "Event",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
    "label": "Add New Foster Carer",
    "link_to": "Foster Carer",
    "type": "DocType"
@@ -49,6 +56,13 @@
    "doc_view": "New",
    "label": "Add New LAC",
    "link_to": "Looked After Child",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Calendar",
+   "link_to": "Event",
    "type": "DocType"
   },
   {
