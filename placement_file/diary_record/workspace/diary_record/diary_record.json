@@ -1,0 +1,40 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Diary Record</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Entry\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Diary\",\"col\":3}}]",
+ "creation": "2022-11-30 12:34:23.867478",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "calendar",
+ "idx": 0,
+ "label": "Diary Record",
+ "links": [],
+ "modified": "2022-11-30 12:47:54.244418",
+ "modified_by": "Administrator",
+ "module": "Diary Record",
+ "name": "Diary Record",
+ "owner": "Administrator",
+ "parent_page": "Home",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 3.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "New Entry",
+   "link_to": "Diary Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "View Diary",
+   "link_to": "Diary Entry",
+   "type": "DocType"
+  }
+ ],
+ "title": "Diary Record"
+}

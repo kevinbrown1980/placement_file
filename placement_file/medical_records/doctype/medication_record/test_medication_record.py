@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestBabyLog(FrappeTestCase):
+class TestMedicationRecord(FrappeTestCase):
 	pass
