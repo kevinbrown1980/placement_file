@@ -9,12 +9,12 @@
  "engine": "InnoDB",
  "field_order": [
   "name1",
+  "looked_after_child",
   "date",
   "column_break_3",
   "foster_carer",
   "section_break_4",
-  "text_editor_5",
-  "section_break_7"
+  "text_editor_5"
  ],
  "fields": [
   {
@@ -47,14 +47,16 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "section_break_7",
-   "fieldtype": "Section Break"
+   "fieldname": "looked_after_child",
+   "fieldtype": "Link",
+   "label": "Looked After Child",
+   "options": "Looked After Child"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2022-11-30 12:18:21.630934",
+ "modified": "2023-06-16 16:28:56.190494",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Diary Entry",
