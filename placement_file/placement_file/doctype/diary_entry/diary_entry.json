@@ -8,8 +8,8 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "diary_entry_for",
   "name1",
-  "looked_after_child",
   "date",
   "column_break_3",
   "foster_carer",
@@ -47,16 +47,16 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "looked_after_child",
-   "fieldtype": "Link",
-   "label": "Looked After Child 1",
-   "options": "Looked After Child"
+   "fieldname": "diary_entry_for",
+   "fieldtype": "Table MultiSelect",
+   "label": "Diary Entry for",
+   "options": "LAC"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2023-07-01 16:44:34.298949",
+ "modified": "2023-07-01 17:01:03.972307",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Diary Entry",
