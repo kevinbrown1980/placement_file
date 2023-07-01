@@ -1,8 +1,13 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Medical Records</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Medication Record\",\"col\":3}}]",
+ "content": "[{\"id\":\"e51_WNep9A\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Medical Records</span>\",\"col\":12}},{\"id\":\"Uaa07rScBJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Medication Record\",\"col\":3}},{\"id\":\"5mOO-9fy5X\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Medication Records\",\"col\":3}},{\"id\":\"S_d6mRtno1\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Horizontal Rule\",\"col\":12}},{\"id\":\"0oBAFaC7Ul\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Medication Type\",\"col\":3}},{\"id\":\"o2GPP5zuu1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Medication Types\",\"col\":3}}]",
  "creation": "2022-11-30 10:24:16.270584",
- "custom_blocks": [],
+ "custom_blocks": [
+  {
+   "custom_block_name": "Horizontal Rule",
+   "label": "Horizontal Rule"
+  }
+ ],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
@@ -12,7 +17,7 @@
  "is_hidden": 0,
  "label": "Medical Records",
  "links": [],
- "modified": "2023-07-01 21:55:06.625035",
+ "modified": "2023-07-01 22:39:41.822051",
  "modified_by": "Administrator",
  "module": "Medical Records",
  "name": "Medical Records",
@@ -26,9 +31,30 @@
  "shortcuts": [
   {
    "color": "Grey",
+   "doc_view": "List",
+   "label": "View Medication Records",
+   "link_to": "Medication Record",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "View Medication Types",
+   "link_to": "Medication",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
    "doc_view": "New",
    "label": "New Medication Record",
    "link_to": "Medication Record",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Add Medication Type",
+   "link_to": "Medication",
    "type": "DocType"
   }
  ],
