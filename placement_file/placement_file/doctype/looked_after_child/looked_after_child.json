@@ -198,11 +198,17 @@
  "index_web_pages_for_search": 1,
  "links": [
   {
+   "group": "Key Infomation",
    "link_doctype": "Diary Entry",
    "link_fieldname": "name1"
+  },
+  {
+   "group": "Key Infomation",
+   "link_doctype": "Medication Record",
+   "link_fieldname": "given_to"
   }
  ],
- "modified": "2023-07-01 17:21:51.200883",
+ "modified": "2023-07-01 17:46:12.286231",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Looked After Child",
