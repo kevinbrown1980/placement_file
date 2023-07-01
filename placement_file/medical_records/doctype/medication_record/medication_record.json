@@ -9,34 +9,36 @@
  "engine": "InnoDB",
  "field_order": [
   "given_to",
-  "date",
+  "date1",
   "medication",
   "dose",
   "reason",
-  "given_by"
+  "given_by",
+  "date",
+  "time"
  ],
  "fields": [
   {
    "fieldname": "given_to",
    "fieldtype": "Link",
    "label": "Given To",
-   "options": "Looked After Child"
+   "options": "Looked After Child",
+   "reqd": 1
   },
   {
-   "allow_in_quick_entry": 1,
-   "default": "Now",
+   "default": "Today",
    "fieldname": "date",
-   "fieldtype": "Datetime",
-   "in_list_view": 1,
+   "fieldtype": "Date",
    "label": "Date",
    "reqd": 1
   },
   {
    "allow_in_quick_entry": 1,
    "fieldname": "medication",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Medication",
+   "options": "Medication",
    "reqd": 1
   },
   {
@@ -62,12 +64,28 @@
    "label": "Given By",
    "options": "Foster Carer",
    "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "default": "Now",
+   "fieldname": "date1",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "DateTime",
+   "reqd": 1
+  },
+  {
+   "default": "Now",
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2022-11-30 12:22:20.086111",
+ "modified": "2023-07-01 21:50:28.196103",
  "modified_by": "Administrator",
  "module": "Medical Records",
  "name": "Medication Record",

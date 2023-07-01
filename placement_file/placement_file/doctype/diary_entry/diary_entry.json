@@ -32,7 +32,8 @@
   {
    "fieldname": "date",
    "fieldtype": "Date",
-   "label": "Date"
+   "label": "Date",
+   "options": "now"
   },
   {
    "fieldname": "section_break_4",
@@ -57,7 +58,7 @@
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2023-07-01 17:08:53.678210",
+ "modified": "2023-07-01 21:26:52.085602",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Diary Entry",

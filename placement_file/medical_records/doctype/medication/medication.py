@@ -1,0 +1,9 @@
+# Copyright (c) 2023, Kevin Brown and contributors
+# For license information, please see license.txt
+
+# import frappe
+from frappe.model.document import Document
+
+
+class Medication(Document):
+	pass
