@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{name1} {date}",
+ "autoname": "format:{diary_entry_for} {date}",
  "creation": "2022-11-25 22:21:25.569045",
  "default_view": "List",
  "doctype": "DocType",
@@ -47,6 +47,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "diary_entry_for",
    "fieldtype": "Table MultiSelect",
    "label": "Diary Entry for",
@@ -56,7 +57,7 @@
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2023-07-01 17:01:03.972307",
+ "modified": "2023-07-01 17:08:53.678210",
  "modified_by": "Administrator",
  "module": "Placement File",
  "name": "Diary Entry",
